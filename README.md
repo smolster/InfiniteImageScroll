@@ -2,7 +2,7 @@
 
 Hey there! This app serves as a simple visual client for the [Bing Image Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/).
 
-This README serves as a high-level guide to the app's codebase. Check out the bottom of this page for a video of the app in action!
+This README serves as a high-level guide to the app's codebase.
 
 ![allimages](https://github.com/smolster/InfiniteImageScroll/raw/master/Screenshots/allimages.png)
 
