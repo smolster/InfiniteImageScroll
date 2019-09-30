@@ -89,11 +89,7 @@ final class SampleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.outputs.displayMessage = displayMessage
-    }
-
-    var displayMessage: (String) -> Void { 
-        return { [weak self] message in 
+        self.viewModel.outputs.displayMessage = { [weak self] message in
             self?.label.text = message
         }
     }
